@@ -1,47 +1,47 @@
 # Black Friday Sales — End-to-End Data Analytics Project
 
-## 📊 Project Overview
+##  Project Overview
 This project analyzes **550,068 Black Friday retail transactions** to understand customer demographics, spending behavior, product performance, and location-based trends. The same 13 business questions were answered across **four tools** — Python, SQL, Power BI, and Excel/Google Sheets — to demonstrate the same analysis expressed through different technologies, with results cross-validated between them.
+This is a pure **analytics/BI project** ,the goal is to explain *what happened* and *why*, using statistics, SQL queries, and interactive dashboards.
 
-This is a pure **analytics/BI project** (no predictive modeling) — the goal is to explain *what happened* and *why*, using statistics, SQL queries, and interactive dashboards.
-
----
-
-## 🗂️ Dataset
+##  Dataset
 - **Source:**  [Black Friday Sales dataset (Kaggle)](https://www.kaggle.com/datasets/sdolezel/black-friday)
 - **Size:** 550,068 rows, 12 columns
 - **Fields:** User_ID, Product_ID, Gender, Age, Occupation, City_Category, Stay_In_Current_City_Years, Marital_Status, Product_Category_1/2/3, Purchase
 
----
 
-## ❓ Business Questions Answered
+
+## Business Questions Answered
 
 **Demographics & Spending**
 1. Does gender affect purchase amount?
 2. Which age group spends the most (total and average)?
 3. Does marital status affect spending behavior?
 4. Which occupation categories generate the highest average/total purchase?
+   
 
 **Location**
+
 5. Which city category (A/B/C) generates the most revenue?
 6. Does years lived in current city affect spending?
 
 **Product Analysis**
+
 7. Which product categories are purchased most frequently?
 8. Which product categories generate the highest total revenue?
 9. What's the distribution of purchase amounts?
 
-**Customer-Level**
+**Customer Level**
+
 10. Who are the top 10 spending customers?
 11. Do specific age+gender segments disproportionately drive revenue?
 
 **Cross Analysis**
+
 12. Is there a relationship between occupation and city category?
 13. Which numeric fields correlate with purchase amount?
 
----
-
-## 🛠️ Tools & What Each Contributed
+##  Tools & What Each Contributed
 
 | Tool | Role |
 |---|---|
@@ -50,9 +50,7 @@ This is a pure **analytics/BI project** (no predictive modeling) — the goal is
 | **Power BI** | 3-page interactive dashboard with navigation sidebar, slicers, and a custom color theme |
 | **Excel / Google Sheets** | Pivot tables, charts, KPI cards, and a summary dashboard sheet |
 
----
-
-## 🔑 Key Insights
+##  Key Insights
 
 - **Gender:** Men drive far more revenue (₹3.91B vs ₹1.19B) — mainly from 3x more transactions, not higher spend per visit.
 - **Age:** The 26-35 age group leads in *total* revenue (transaction volume), while 51-55 has the highest *average* spend per transaction.
@@ -68,8 +66,8 @@ This is a pure **analytics/BI project** (no predictive modeling) — the goal is
 
 ---
 
-## 📁 Repository Structure
-```
+## Repository Structure
+
 black-friday-analytics-project/
 ├── python/
 │   └── Black_Friday_Analytics_Project.ipynb
