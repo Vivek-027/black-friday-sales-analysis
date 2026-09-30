@@ -84,14 +84,32 @@ black-friday-sales-analysis/
 ├── Sql/
 │   └── black_friday_analysis.sql
 ├── screenshots/
-│   └── (B_F_S_Overview)
+│   └── B_F_S_overview.png
+│   ├── B_F_S_Customer_occupation.png
+│   ├── B_F_S_Product_analysis.png
+│   ├── B_F_S_Excel_dashboard.png
+│   └── Black_F_S_power_bi_dash.png
 └── README.md
 ```
 
 ---
 
-## 📷 Dashboard Previews
-*(Add screenshots of your Power BI pages and Excel dashboard here before publishing)*
+##  Dashboard Previews
+
+### Power BI — Overview
+![Power BI Overview](screenshots/B_F_S_overview.png)
+
+### Power BI — Customer & Occupation
+![Power BI Customer Occupation](screenshots/B_F_S_Customer_occupation.png)
+
+### Power BI — Product Analysis
+![Power BI Product Analysis](screenshots/B_F_S_Product_analysis.png)
+
+### Power BI — Full Dashboard
+![Power BI Dashboard](screenshots/Black_F_S_power_bi_dash.png)
+
+### Excel Dashboard
+![Excel Dashboard](screenshots/B_F_S_Excel_dashboard.png)
 
 ---
 
@@ -100,7 +118,5 @@ black-friday-sales-analysis/
 - Exploratory Data Analysis with clear business framing, not just charts for their own sake
 - SQL proficiency: GROUP BY, aggregations, window-style ranking, manual correlation calculation
 - Cross-tool consistency: identical results validated across 4 independent platforms
-
-
 - Dashboard design: interactive filtering (slicers), multi-page navigation, custom theming
 
