@@ -69,21 +69,22 @@ This is a pure **analytics/BI project** ,the goal is to explain what happened an
 
 ## Repository Structure
 
-black-friday-analytics-project/
-├── python/
-│   └── Black_Friday_Analytics_Project.ipynb
-├── sql/
-│   └── black_friday_analysis.sql
-├── powerbi/
+## 📁 Repository Structure
+```
+black-friday-sales-analysis/
+├── Dataset/
+│   └── Black_friday_sales_dataset.csv
+├── Excel/
+│   └── Black_Friday_Dashboard.xlsx
+├── Power bi/
 │   ├── Black_Friday_Dashboard.pbix
 │   └── Black_Friday_Executive_Theme.json
-├── excel/
-│   └── Black_Friday_Dashboard.xlsx
+├── Python/
+│   └── Black_Friday_Analytics_Project.ipynb
+├── Sql/
+│   └── black_friday_analysis.sql
 ├── screenshots/
-│   ├── powerbi_overview.png
-│   ├── powerbi_customer_occupation.png
-│   ├── powerbi_product_analysis.png
-│   └── excel_dashboard.png
+│   └── (B_F_S_Overview)
 └── README.md
 ```
 
