@@ -1,11 +1,12 @@
 # Black Friday Sales — End-to-End Data Analytics Project
 
 ##  Project Overview
-This project analyzes **550,068 Black Friday retail transactions** to understand customer demographics, spending behavior, product performance, and location-based trends. The same 13 business questions were answered across **four tools** — Python, SQL, Power BI, and Excel/Google Sheets — to demonstrate the same analysis expressed through different technologies, with results cross-validated between them.
-This is a pure **analytics/BI project** ,the goal is to explain *what happened* and *why*, using statistics, SQL queries, and interactive dashboards.
+This project analyzes **550,068 Black Friday retail transactions** to understand customer demographics, spending behavior, product performance, and location-based trends. The same 13 business questions were answered across **four tools** ( Python, SQL, Power BI, and Excel/Google Sheets ) to demonstrate the same analysis expressed through different technologies, with results cross-validated between them.
+This is a pure **analytics/BI project** ,the goal is to explain what happened and why , using statistics, SQL queries, and interactive dashboards.
 
 ##  Dataset
 - **Source:**  [Black Friday Sales dataset (Kaggle)](https://www.kaggle.com/datasets/sdolezel/black-friday)
+- **Local copy:** [Dataset/Black_friday_sales_dataset.csv](Dataset/Black_friday_sales_dataset.csv)
 - **Size:** 550,068 rows, 12 columns
 - **Fields:** User_ID, Product_ID, Gender, Age, Occupation, City_Category, Stay_In_Current_City_Years, Marital_Status, Product_Category_1/2/3, Purchase
 
